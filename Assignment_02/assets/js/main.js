@@ -29,5 +29,7 @@ function func2(FirstElement, arr1) {
             console.log(data[i].url);
         }
     })
+  }).catch(()=>{
+    console.log("sum is not greater than 30");
   });
 }
