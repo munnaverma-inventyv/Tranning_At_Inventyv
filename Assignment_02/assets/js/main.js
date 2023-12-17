@@ -31,5 +31,5 @@ function func2(FirstElement, arr1) {
     })
   }).catch(()=>{
     console.log("sum is not greater than 30");
-  })
+  });
 }
