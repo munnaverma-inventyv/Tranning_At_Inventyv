@@ -1,0 +1,27 @@
+body {
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    
+  }
+  #pascalTree {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  #PandC{
+    max-width: 100%;
+    overflow-x: visible;
+  }
+  .triangle-row {
+    display: flex;
+    margin-bottom: 5px;
+  }
+  .triangle-cell {
+    padding: 8px;
+    margin: 0 2px;
+  }
+  .prime {
+    text-decoration: underline;
+    color: rgb(4, 250, 4);
+  }
