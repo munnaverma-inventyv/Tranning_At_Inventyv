@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Image View</title>
+    <script>
+      let fetchData = async ()=> {
+        let responsedata = await fetch("https://localhost:4000/");
+
+        console.log(responsedata);
+        let data = await responsedata.json();
+        console.log(data.link); 
+        // displayUserDetails(data);
+      }
+      function displayUserDetails(data) {
+        const userDetailsDiv = document.getElementById("userDetails");
+
+        // Loop through each user in the data
+        data.post.forEach((user) => {
+          // Create an image element
+          const img = document.createElement("img");
+          img.src = user.imgLink; // Set the image source from the JSON data
+          img.alt = user.userId; // Set the alt text for accessibility
+          // Append the image and paragraph to the userDetailsDiv
+          userDetailsDiv.appendChild(img);
+          userDetailsDiv.appendChild(paragraph);
+        });
+      }
+      fetchData()
+    </script>
+  </head>
+  <body>
+    <div id="userDetails"></div>
+  </body>
+</html>
