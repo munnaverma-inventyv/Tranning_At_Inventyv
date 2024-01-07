@@ -32,3 +32,10 @@
 - **Task 2** : Stroring and display all the element of array using recurion
 - **Task 3** : step1 ) Write a JavaScript program that generates the Fibonacci and store it into one array </br> step2) filters out prime numbers from the series </br> step3) calculates the sum of the differences between consecutive prime numbers, and logs the resulting prime numbers and the sum.
                 
+### Assignment_04
+- **Task 1** : Operations Using HTTP/1.1 Methods.
+- **Task 2** : Operations Using HTTP/2 Methods.
+
+### Assignment_05
+- Question Problem : Develope a program that reads a Number Input that should be atlest 4 degit long then apply Permutaion and Combination on that then among them found a prime numbers. after that draw a pascal tree and underline the prime number on that.
+- For more detail you can go to (https://github.com/mv-here/Tranning_At_Inventyv/blob/main/Assignment_05/Main/REDME.md)
