@@ -40,3 +40,10 @@ while (true) {
 ```
 - For more Detail you can go to Assignment_05/Main/assets/Js/index.js
 
+### Explain
+- **Step 1** : Permutation and Combination: The getUniquePermutations function generates unique permutations of a given number, considering all possible lengths.
+- **Step 2** : Prime Numbers : Prime numbers are filtered from the previously calculated permutations, and the maximum prime number is found.
+- **Step 3** : Pascal's Triangle: The generatePascalsTriangle function generates Pascal's Triangle up to a specified maximum number.
+- **Step 4** : Error Ratio Calculation: The error ratio is calculated as the percentage of prime numbers not in Pascal's Triangle compared to the total prime numbers.
+
+#### Author : Munna Verma.
